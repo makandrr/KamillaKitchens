@@ -1,0 +1,14 @@
+{
+  "name": "kamilla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently --kill-others \"http-server --port 84\" \"sass --watch scss/main.scss css/main.css\""
+  },
+  "repository": "https://github.com/makandrr/KamillaKitchens",
+  "author": "Maksim Andrushin<iammaksimandr@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
