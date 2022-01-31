@@ -1,0 +1,28 @@
+@import "variables";
+
+body {
+    font-family: $fSans;
+}
+
+.container {
+    max-width: $containerWidth;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    padding: 1em 0;
+    .nav {
+        margin-left: auto;
+    }
+
+    .nav a {
+        font-size: 1.1em;
+        color: #7E7E7E;
+        text-decoration: none;
+    }
+}
